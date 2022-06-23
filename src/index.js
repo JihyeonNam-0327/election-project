@@ -6,7 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
+    <nav align="center">
+      <a href='./App.js'> 후보등록 </a> | 
+      <a href='./hubo1.js'> 투표하기 </a> | 
+      <a href='./App.js'> 개표하기 </a>
+    </nav>
     <App />
   </React.StrictMode>
 );
